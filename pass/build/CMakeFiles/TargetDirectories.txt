@@ -1,0 +1,7 @@
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/intrinsics_gen.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/omp_gen.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/acc_gen.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/ComplexityPass.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/edit_cache.dir
+/home/adminishitha/llvm-complexity-estimator/pass/build/CMakeFiles/rebuild_cache.dir

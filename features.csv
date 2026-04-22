@@ -1,0 +1,7 @@
+function,instrCount,basicBlocks,loopDepth,phiNodes,memOps
+add,8,1,0,0,4
+sumArray,28,5,1,0,14
+matMul,80,13,1,0,36
+fibonacci,20,4,0,0,8
+copyArray,29,5,1,0,14
+classify,27,10,0,0,11

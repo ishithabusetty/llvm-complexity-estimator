@@ -1,0 +1,28 @@
+=== Dataset ===
+    function  instrCount  basicBlocks  loopDepth  phiNodes  memOps  compileTime_ms
+0        add           8            1          0         0       4              42
+1   sumArray          28            5          1         0      14              42
+2     matMul          80           13          1         0      36              42
+3  fibonacci          20            4          0         0       8              17
+4  copyArray          29            5          1         0      14              17
+5   classify          27           10          0         0      11              17
+
+=== Model Evaluation ===
+Predicted:  [ 9.89637746 15.66146337]
+Actual:     [42 42]
+MAE:        29.22 ms
+R² Score:   1.00
+
+=== Feature Weights ===
+  instrCount     : 1.3385
+  basicBlocks    : -0.7068
+  loopDepth      : -1.0825
+  phiNodes       : 0.0000
+  memOps         : -1.7096
+  intercept      : 6.7332
+
+=== Predicting Unseen Functions ===
+Function 1: predicted 9.3ms → CHEAP — run all passes
+Function 2: predicted 120.7ms → EXPENSIVE — skip heavy passes
+
+Model weights saved to model_weights.json
