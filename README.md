@@ -9,6 +9,8 @@ resulting predictions to route functions to either a full O2 pipeline or a reduc
 O1 pipeline — enforcing a compile-time budget without manual developer intervention.
 
 ---
+## execute
+streamlit run ~/llvm-complexity-estimator/app.py
 
 ## Architecture
 
